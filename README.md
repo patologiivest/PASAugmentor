@@ -10,7 +10,7 @@ In computational pathology, stain augmentation is one of the key approaches to p
 
 # Material and methods
 
-This GitHub repository contains these two augmentation templates as well as the code for producing new augmentations. Augmentations can either be achieved using the RandStainNA tool (using the stain style template). We are also introducing the PASAugmentor, a new tool for creating augmentations from the stain vector-related augmentation templates. Both augmentation methods allow optional removal of background pixels prior to augmentation.
+This GitHub repository contains these two augmentation templates as well as the code for producing new augmentations. Augmentations can either be achieved using the RandStainNA tool (using the stain style template). We are also introducing the PASAugmentor, a bespoke tool for creating augmentations from the stain vector-related augmentation templates. Both augmentation methods allow optional removal of background pixels prior to augmentation.
 
 | ![Figure 1: Illustration of augmentations. An example glomerulus (top) is randomly augmented 100 times either with the RandStainNA (bottom left) or the PASAugmentor (bottom right). Both augmentations employ background removal to focus color shifts only to foreground pixels. The RandStainNA is run using the uniform distribution setting.](https://github.com/patologiivest/PASAugmentor/blob/main/Images/src/Fig.png?raw=true) |
 |:--:| 
